@@ -1,0 +1,18 @@
+V mikai error description che accetta pointer a mikai type in file mikai.c, come metodo della struct mikai
+V errore hard coded nella struct al posto di log (enum con errori e funzione che converte enum in const *char + assert per errori del programmatore)
+
+V   tipo SrixBlock come array di 4 byte, accettato fra Reader e Srix.
+V   se blocco 6 a 0 (e quindi sk a 0),
+    blocca tutto il programma. Funzione get sk() che ritorna il valore uint32_t nella struct.izi
+
+bocciato - fare check crc in lettura in parallelo se non c'è lock id al livello Srix. salvare nella eeprom il contenuto decode (lavoro già fatto per il crc) e fare encode in scrittura.
+V livelli completamente separati (anche libnfc)
+usare i thread per il crc in parallelo alla lettura e nel calcolo MyKey (forse)
+
+input come stringa per evitare i trick
+[problema momo] Segmentation fault quando si cambia Srix e si preme 0 (errore concettuale)
+[sospeso, troppa complessità] fare un array malloc con le azioni da fare e fare tutto alla fine (per non leggere tutto per niente)
+Riscrittura della licenza per farla generica
+versione successiva - fare cli/gui in c++/rust
+
+appimage

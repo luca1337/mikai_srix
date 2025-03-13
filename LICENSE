@@ -1,0 +1,24 @@
+MIKAI LICENSE
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of MIKAI LICENSE.
+
+A copy of this license is also available at telegram channel
+https://t.me/mikaidownload.
+
+Any sale of this program or other programs that use this program/library
+is prohibited and goes against the terms of this license.
+
+It's forbidden to use reverse engineering techniques on this program to try
+to obtain details not present in the released source code.
+
+The user can't distribute a modified version of this program
+(example: same functions but with changed strings) or a program that use this
+program/library to simulate the interface of this program.
+
+Make a porting of the same functions/procedures of this program/library to other
+languages is against the terms of this license.
+If you want to do it, you must mention this project, with its URLs, attaching
+a copy of this license, and it must be respected.
+
+Use this project, partially or totally, in a not Linux-based system, is forbidden.
